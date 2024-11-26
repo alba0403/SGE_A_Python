@@ -1,0 +1,1 @@
+# Imprimir números de l’1 al 10 (amb for i amb while)
