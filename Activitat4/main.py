@@ -1,6 +1,6 @@
 # Importar les dues classes que hem fet (Cotxe i Colibri)
-from Cotxe import Cotxe
-from Colibri import Colibri
+from Constructors import Cotxe
+from Constructors import Colibri
 
 # Fer tres instàncies de l'objecte Cotxe
 cotxe_1 = Cotxe("Blau", "Ford", 5, "Fiesta", 20000)
@@ -32,7 +32,7 @@ print(f'El meu cotxe és de color: {cotxe_1.getColor()}')
 print(f'El meu cotxe val: {cotxe_2.getPreu()}')
 
 # Modificar 2 atributs de Colibrí a través dels setters
-colibri_1.setColor("Vermell")
+colibri_1.setColor("vermell")
 colibri_2.setEdat(6)
 
 # Mostrar 2 atributs modificats de Colibrí a través dels getters
